@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.antaler.courses.proto;
+
+message Simple {
+  optional uint32 id = 1;
+  string name = 2;
+  bool isMan= 3;
+  repeated string tasks = 4;
+}
